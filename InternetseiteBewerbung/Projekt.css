@@ -1,0 +1,100 @@
+body{
+    background-image:url(hintergrund.png);
+}
+.cad {
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 150px; 
+    left: 200px;
+    transition: all 250ms ease;
+    display: flex;
+}
+.cad{
+    transition: 1s;
+}
+.cad:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.PC{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 600px; 
+    left: 350px;
+    transition: all 250ms ease;
+    display: flex;
+}
+.PC{
+    transition: 1s;
+}
+.PC:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.malen{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 600px; 
+    left: 1450px;
+    transition: all 250ms ease;
+    display: flex;
+}
+.malen{
+    transition: 1s;
+}
+.malen:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.pokemon{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 150px; 
+    left: 1400px;
+    transition: all 250ms ease;
+    display: flex;
+}
+.pokemon{
+    transition: 1s;
+}
+.pokemon:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+
+.text{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top:320px;
+    left:680px
+}
+
+
+button{
+    padding: 10px 30px;
+    color: white;
+    background-color:  #0082e6;
+    box-shadow: 4px 6px 10px #0082e6;
+    border: solid 1px blue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    height: auto;
+    position: absolute;
+    top: 50px; 
+    left: 1650px;
+   transition: ease-in-out all 300ms;
+}
+button:hover{
+    color: white;
+    background-color: #0082e6;
+    transform: translate(0px, -10px);
+    
+}

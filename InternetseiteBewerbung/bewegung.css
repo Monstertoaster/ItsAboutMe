@@ -1,0 +1,59 @@
+body{
+    background-image:url(hintergrund.png);
+}
+button{
+    padding: 10px 30px;
+    color: white;
+    background-color:  #0082e6;
+    box-shadow: 4px 6px 10px #0082e6;
+    border: solid 1px blue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    height: auto;
+    position: absolute;
+    top: 50px; 
+    left: 1650px;
+   transition: ease-in-out all 300ms;
+}
+button:hover{
+    color: white;
+    background-color: #0082e6;
+    transform: translate(0px, -10px);
+    
+}
+.text{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top:330px;
+    left:820px
+}
+.kandelfels{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top:160px;
+    left:1380px
+}
+.wasserfall{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top:90px;
+    left:200px
+}
+.kandel{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top:30px;
+    left:870px
+}
+.bergland{
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top:570px;
+    left:798px
+}
+
